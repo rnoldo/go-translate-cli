@@ -41,7 +41,7 @@ func main() {
 		},
 	}
 
-	//default action
+	// chinese to english
 	app.Action = func(c *cli.Context) {
 		text := c.Args().First()
 		u, _ := url.Parse("http://translate.google.com/translate_a/t?client=t&ie=UTF-8&oe=UTF-8&hl=zh-CN&sl=en&tl=zh-CN")

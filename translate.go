@@ -14,7 +14,7 @@ import (
 func main() {
 	app := cli.NewApp()
 	app.Name = "translate"
-	app.Usage = "translate is a cli tools for translation written in go and cli"
+	app.Usage = "translate is a cli tools for translation written in go and cli\n translate hello -> 你好 \n translate r 你好 -> hello"
 	app.Commands = []cli.Command{
 		{
 			Name:      "reverse",

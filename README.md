@@ -10,7 +10,9 @@ your $PATH
 
 2. go get github.com/rnoldo/go-translate-cli  
    or  
-	git clone github.com/rnoldo/go-translate-cli.git | go install
+	* git clone github.com/rnoldo/go-translate-cli.git  
+	* cd go-translate-cli  
+	* go install
 
 ##usage:
 

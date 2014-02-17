@@ -20,5 +20,9 @@ translate hello --> 你好
 
 translate 你好 --> hello
 
+translate "你好 golang" --> hello golang  
+
+translate "hello golang" --> 你好 golang
+
 ##and you can do more:
 if you are familar with go, you can fork it and hack on it to translate between any language pair supported by translate.google.com.

@@ -16,11 +16,21 @@ your $PATH
 
 ##usage:
 
+By default the tool auto-detects whether the first argument is Chinese or English and swaps the source/target accordingly:
+
+```
 translate hello --> 你好  
 translate 你好 --> hello
 translate "你好 golang" --> hello golang  
-
 translate "hello golang" --> 你好 golang
+```
+
+If you need explicit control, pass language codes supported by translate.google.com:
+
+```
+translate --from en --to fr "good morning"
+translate -f auto -t ja "大家早上好"
+```
 
 ##and you can do more:
 if you are familar with go, you can fork it and hack on it to translate between any language pair supported by translate.google.com.

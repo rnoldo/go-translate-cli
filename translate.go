@@ -8,7 +8,6 @@ import (
 	"os"
 	"regexp"
 	"strings"
-
 	"github.com/codegangsta/cli"
 )
 

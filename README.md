@@ -17,9 +17,7 @@ your $PATH
 ##usage:
 
 translate hello --> 你好  
-
 translate 你好 --> hello
-
 translate "你好 golang" --> hello golang  
 
 translate "hello golang" --> 你好 golang
